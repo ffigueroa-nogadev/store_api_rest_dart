@@ -1,0 +1,43 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+.env
+.env.local
+.env.*.local
+# Dependencias descargadas
+.packages
+.pub-cache/
+.pub/
+
+# Archivos generados por Dart
+.dart_tool/
+build/
+
+# Configuraciones locales de IDEs o editores
+.idea/
+.vscode/
+*.iml
+# Configuraciones locales de IDEs o editores
+.idea/
+.vscode/
+*.iml
+
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+
+
+# Secretos de credenciales
+*.key
+*.pem
+*.crt
+
+# Logs
+*.log
+logs/
