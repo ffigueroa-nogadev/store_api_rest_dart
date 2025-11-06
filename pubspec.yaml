@@ -23,3 +23,7 @@ dev_dependencies:
 
 scripts:
   dev: watchexec -r -w bin -w lib "dart run bin/server.dart"
+  migrate: dart run lib/db/migrations/scripts/index.dart
+  migrate:up: dart run lib/db/migrations/scripts/index.dart up
+  migrate:down: dart run lib/db/migrations/scripts/index.dart down
+  migrate:fresh: dart run lib/db/migrations/scripts/index.dart fresh
